@@ -31,11 +31,13 @@
     </properties>
 
     <dependencies>
+        <!-- main dependency, use this to I/O stuff -->
         <dependency>
             <groupId>net.imglib2</groupId>
             <artifactId>labeling</artifactId>
             <version>0.2.2</version>
         </dependency>
+        <!-- dependency for example-->
         <dependency>
             <groupId>org.scijava</groupId>
             <artifactId>scijava-common</artifactId>
@@ -43,11 +45,6 @@
         <dependency>
             <groupId>net.imglib2</groupId>
             <artifactId>imglib2-ij</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.indago</groupId>
-            <artifactId>Indago</artifactId>
-            <version>0.1.12-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

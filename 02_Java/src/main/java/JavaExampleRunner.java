@@ -1,4 +1,3 @@
-import com.indago.data.segmentation.LabelData;
 import net.imglib2.img.display.imagej.ImageJFunctions;
 import net.imglib2.labeling.LabelingIOService;
 import net.imglib2.labeling.data.Container;
